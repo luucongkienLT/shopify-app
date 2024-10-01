@@ -1,0 +1,16 @@
+.chart{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+}
+.subscription_chart{
+    flex: 1; 
+    min-width: 300px;
+     margin-right: 10px
+}
+.revenue_chart{
+    flex: 1;
+    min-width: 300px;
+    margin-left: 10px
+}
