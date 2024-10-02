@@ -10,12 +10,12 @@ import { Icon } from "@shopify/polaris";
 const { Sider, Header } = Layout;
 const items = [
   {
-    key: "1",
+    key: "0",
     icon: <Icon source={HomeIcon} tone="base" />,
     label: <Link to="/">Dashboard</Link>,
   },
   {
-    key: "2",
+    key: "1",
     icon: <Icon source={ProductIcon} tone="base" />,
     label: <Link to="/products">Products</Link>,
   },
@@ -39,7 +39,7 @@ const LayoutScreen = () => {
           <Menu
             theme="dark"
             mode="inline"
-            defaultSelectedKeys={["1"]}
+            defaultSelectedKeys={"0"}
             items={items}
           />
         </Sider>
